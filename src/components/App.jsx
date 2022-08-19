@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <Navbar/>
+      <img className='banner' src="./img/banner-aji.jpg" alt="banner-brave" />
       <ItemListContainer titulo="Productos"/>
     </>
   );

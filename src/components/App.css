@@ -1,5 +1,14 @@
+/* body{
+    background-image: url("../../public/img/banner-aji.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 .icon{
     font-size: 50px;
     color: black;
     padding-right: 30px;
+}
+
+.banner{
+    width: 100%;
 }
