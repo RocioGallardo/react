@@ -4,7 +4,6 @@ function Counter({stock, onAdd, min}) {
     const {sumar, restar, reset, cont} = useCounter(stock, min)
     return (
         <>
-            <p>Stock: {stock}</p>
             <p>Cantidad: {cont}</p>
                 <div className="btn-group" role="group" aria-label="Basic example">
                     <button className='btn btn-outline-danger' onClick={restar}>-</button>
