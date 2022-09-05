@@ -1,4 +1,4 @@
-import useCounter from '../Hooks/useCounter';
+import useCounter from '../../Hooks/useCounter';
 
 function Counter({stock, onAdd, min}) {
     const {sumar, restar, reset, cont} = useCounter(stock, min)

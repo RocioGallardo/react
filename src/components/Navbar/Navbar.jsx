@@ -1,5 +1,6 @@
 import CartWidget from './CartWidget';
 import Dropdown from './Dropdown';
+import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -12,16 +13,16 @@ function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarColor03">
                         <ul className="navbar-nav me-auto">
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">Inicio</a>
+                                <Link to="/" className="nav-link active" >Inicio</Link>
                             </li>
+                            <Dropdown/>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contacto</a>
+                                <Link to="/Contacto" className="nav-link" >Contacto</Link>
                             </li>
-                            <Dropdown />
                         </ul>
-                        <a className="navbar-brand" href="#">
-                                    <img src="./img/brave2.jpg" alt="" width="70"/>
-                                </a>
+                        <Link to="/" className="navbar-brand" >
+                            <img src="./img/brave2.jpg" alt="" width="70"/>
+                        </Link>
                         <CartWidget/>
                     </div>
                 </div>

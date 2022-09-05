@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 
 export default function Dropdown() {
     return (
@@ -5,18 +6,18 @@ export default function Dropdown() {
             <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Productos</a>
                 <div className="dropdown-menu">
-                    <a className="dropdown-item" href="#">Sujetadores</a>
-                    <a className="dropdown-item" href="#">Bombachas</a>
-                    <a className="dropdown-item" href="#">Accesorios</a>
+                    <Link to="/categoria/sujetadores" className="dropdown-item" >Sujetadores</Link>
+                    <Link to="/categoria/bombachas" className="dropdown-item" >Bombachas</Link>
+                    <Link to="/categoria/accesorios" className="dropdown-item" >Accesorios</Link>
                     <div className="dropdown-divider" />
-                    <a className="dropdown-item" href="#">Giftcards</a>
+                    <Link to="/productos" className="dropdown-item" >Giftcards</Link>
                 </div>
             </li>
             <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Info</a>
                 <div className="dropdown-menu">
-                    <a className="dropdown-item" href="#">Guia de talles</a>
-                    <a className="dropdown-item" href="#">Preguntas Frecuentes</a>
+                    <Link to="/talles" className="dropdown-item" >Guia de talles</Link>
+                    <Link to="/preguntas" className="dropdown-item" >Preguntas Frecuentes</Link>
                 </div>
             </li>
         </>
