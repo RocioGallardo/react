@@ -5,18 +5,18 @@ import { useState, useEffect } from 'react';
 
 function Home() {
 
-    const [valueY, setValueY] = useState(0)
-    useEffect(() => {
-        const autoScroll = () => {
-            let size = window.screen.height
-            window.scrollTo({top: valueY})
-            setValueY(valueY + size)
-            if(valueY > 2300){
-                setValueY(0)
-            }
-        }
-        setInterval(autoScroll, 7000)
-    })
+    // const [valueY, setValueY] = useState(0)
+    // useEffect(() => {
+    //     const autoScroll = () => {
+    //         let size = window.screen.height
+    //         window.scrollTo({top: valueY})
+    //         setValueY(valueY + size)
+    //         if(valueY > 2300){
+    //             setValueY(0)
+    //         }
+    //     }
+    //     setInterval(autoScroll, 7000)
+    // })
     
     return (
         <div>
