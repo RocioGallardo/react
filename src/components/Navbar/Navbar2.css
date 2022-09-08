@@ -1,0 +1,13 @@
+.navbar-2{
+    position: fixed;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 100;
+}
+.li-navbar-2{
+    padding: 20px;
+}
+.bold{
+    font-weight: 400;
+}

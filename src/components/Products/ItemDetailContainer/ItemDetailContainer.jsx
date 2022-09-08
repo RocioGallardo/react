@@ -20,9 +20,7 @@ function ItemDetailContainer() {
 
     return (
         <>
-        {
-            item.nombre ? <ItemDetail item={item} /> : <h1>Cargando...</h1>
-        }
+            {item.nombre ? <ItemDetail item={item} /> : <div className="lds-hourglass"></div>}
         </>
         
     )

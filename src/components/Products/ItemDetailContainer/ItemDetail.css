@@ -1,0 +1,49 @@
+.div-card-detail{
+    padding: 20px;
+    margin: auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.div-card-detail-der{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-card-detail-der *{
+    margin: 10px 0px;
+}
+
+.img-card-detail{
+    width: 100%;
+}
+
+.card-title{
+    font-weight: 500;
+}
+
+.btn{
+    background-color: #000;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+.btn-counter{
+    padding: 5px;
+}
+
+.cuidados-container{
+    margin-top: 30px;
+}
+.cuidados{
+    display: flex;
+    align-items: center;
+}
+.cuidados img{
+    width: 25px;
+}

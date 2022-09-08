@@ -7,10 +7,7 @@ import { useParams } from 'react-router-dom';
 export const ItemListContainer = () => {
 
     const [productList, setProductList] = useState([])
-
     const { categoria } = useParams()
-
-
 
     const getProducts = () => new Promise((resolve, reject) => {
         if (categoria) {
@@ -24,21 +21,16 @@ export const ItemListContainer = () => {
         getProducts()
             .then(products => setProductList(products))
             .catch(error => console.error(error))
-
         return () => {
             setProductList([])
         }
-
     }, [categoria])
 
 
 
     return (
         <>
-            {
-                productList.length ? <ItemList productList={productList} /> : <h1>Cargando...</h1>
-            }
-
+            {productList.length ? <ItemList productList={productList}/> : <div className="lds-hourglass"></div>}
         </>
     )
 }

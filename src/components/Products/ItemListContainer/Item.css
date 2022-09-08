@@ -1,0 +1,22 @@
+.container-cards-productos{
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-productos{
+    padding-top: 50px;
+    margin: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.img-card-productos{
+    width: 100%;
+    border: 10px solid #eee;
+}
+.detalles-card-productos{
+    display: flex;
+    justify-content: space-between;
+}
