@@ -18,8 +18,20 @@
     margin: 10px 0px;
 }
 
+.div-card-detail-center{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    height: 600px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
 .img-card-detail{
     width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+
 }
 
 .card-title{
