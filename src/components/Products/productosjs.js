@@ -7,6 +7,7 @@ export const productosjs = [
                 stock: 5,
                 coleccion: "Muérdago",
                 categoria: "sujetadores",
+                categoríaEspecifica: "con aro",
                 detalles: "Acá van los detallesLorem ipsum dolor sit amet consectetur, adipisicing elit. Totam accusantium, ullam, doloremque officia dolores inventore dolor soluta ipsa officiis sint, aspernatur eaque? Facere perspiciatis et a veritatis! Voluptas, est odit minima quod ipsa pariatur doloribus sapiente corrupti nobis iste et quae quibusdam. Quae aliquam neque rerum natus velit optio sed aspernatur debitis nihil dolorum. Aperiam, numquam labore. Ducimus distinctio sed provident maxime nulla, atque impedit eveniet doloribus! Labore illum odit deserunt quo, delectus molestiae eius! Nisi, facere vel? Porro ullam error."
         },
         {
@@ -17,6 +18,7 @@ export const productosjs = [
                 stock: 5,
                 coleccion: "Muérdago",
                 categoria: "sujetadores",
+                categoríaEspecifica: "triangulo",
                 detalles: "Acá van los detalles"
         },
         {
@@ -27,6 +29,7 @@ export const productosjs = [
                 stock: 5,
                 coleccion: "Muérdago",
                 categoria: "bombachas",
+                categoríaEspecifica: "tanga",
                 detalles: "Acá van los detalles"
         },
         {
@@ -37,6 +40,7 @@ export const productosjs = [
                 stock: 5,
                 coleccion: "Muérdago",
                 categoria: "bombachas",
+                categoríaEspecifica: "vedetina",
                 detalles: "Acá van los detalles"
         },
         {
@@ -47,6 +51,7 @@ export const productosjs = [
                 stock: 5,
                 coleccion: "Muérdago",
                 categoria: "bombachas",
+                categoríaEspecifica: "culotte",
                 detalles: "Acá van los detalles"
         },
         {
@@ -57,6 +62,7 @@ export const productosjs = [
                 stock: 5,
                 coleccion: "Muérdago",
                 categoria: "accesorios",
+                categoríaEspecifica: "portaliga",
                 detalles: "Acá van los detalles"
         },
         {
@@ -67,6 +73,29 @@ export const productosjs = [
                 stock: 5,
                 coleccion: "Muérdago",
                 categoria: "sujetadores",
+                categoríaEspecifica: "con aro",
+                detalles: "Acá van los detalles"
+        },
+        {
+                id: 7,
+                nombre: "Bombacha Abierta",
+                precio: 2700,
+                img: "./img/abierta.jpg",
+                stock: 5,
+                coleccion: "Muérdago",
+                categoria: "bombachas",
+                categoríaEspecifica: "abierta",
+                detalles: "Acá van los detalles"
+        },
+        {
+                id: 8,
+                nombre: "Giftcard 5000",
+                precio: 5000,
+                img: "./img/giftcard.jpg",
+                stock: 5,
+                coleccion: "Muérdago",
+                categoria: "giftcards",
+                categoríaEspecifica: "giftcard",
                 detalles: "Acá van los detalles"
         }
 ]

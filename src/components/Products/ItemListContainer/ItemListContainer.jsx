@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import {productosjs} from '../productosjs'
 import { ItemList } from './ItemList'
 import { useParams } from 'react-router-dom';
@@ -9,7 +9,7 @@ export const ItemListContainer = () => {
     const [productList, setProductList] = useState([])
     const { categoria } = useParams()
 
-    const getProducts = () => new Promise((resolve, reject) => {
+    const getProducts = () => new Promise((resolve) => {
         if (categoria) {
             setTimeout(() => resolve(productosjs.filter(item => item.categoria === categoria)), 2000)
         } else {
@@ -25,9 +25,6 @@ export const ItemListContainer = () => {
             setProductList([])
         }
     }, [categoria])
-
-
-
     return (
         <>
             {productList.length ? <ItemList productList={productList}/> : <div className="lds-hourglass"></div>}

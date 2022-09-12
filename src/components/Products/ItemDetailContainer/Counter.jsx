@@ -1,9 +1,17 @@
+import { useCartContext } from '../../../context/CartContext';
 import useCounter from '../../Hooks/useCounter';
 
-function Counter({stock, min, agregar, item}) {
 
-    const {sumar, restar, reset, cont} = useCounter(stock, min)
-    
+function Counter({min, item, onAdd}) {
+
+    const {addItem} = useCartContext()
+
+    const {sumar, restar, reset, cont} = useCounter(item.stock, min)
+
+    const saveItemToCart = (nombre, id, cant) => {
+        addItem(nombre, id, cant)
+        onAdd()
+    }
     return (
         <>
         <div>
@@ -11,7 +19,7 @@ function Counter({stock, min, agregar, item}) {
             <button className='btn-counter bold' onClick={reset}>Reset</button>
             <button className='btn-counter bold' onClick={sumar}>+</button>
         </div>
-        <button className='btn' onClick={() => agregar(item.id)}>Añadir {cont} a la cesta</button>
+        <button className='btn' onClick={() => saveItemToCart(item.nombre, item.id, cont)}>Añadir {cont} a la cesta</button>
         </>
     )
 }

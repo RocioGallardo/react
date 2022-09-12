@@ -9,3 +9,12 @@
     height: 100vh;
     object-fit: cover;
 }
+
+.home-container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.section1, .section2, .section3 {
+    scroll-snap-align: start;
+}
