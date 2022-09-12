@@ -38,7 +38,7 @@ function NuevoNavbar() {
                             <Link to="/iniciar-sesion" className="navbar-brand" > Iniciar sesion </Link>
                         </li>
                         <li>
-                            <Link to="/buscar" className="navbar-brand" > Ayuda </Link>
+                            <Link to="/info" className="navbar-brand" > Ayuda </Link>
                         </li>
                         <li>
                             <Link className='nav-cart' to="/cart" >

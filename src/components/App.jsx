@@ -7,6 +7,7 @@ import NuevoNavbar from './Navbar/NuevoNavbar';
 import Footer from './Footer/Footer';
 import { CartContextProvider } from '../context/CartContext';
 import Cart from './Cart/Cart';
+import Questions from './Info/Questions';
 
 
 
@@ -21,6 +22,7 @@ function App() {
             <Route path='/' element={<Home/>}></Route>
             <Route path='/:categoria' element={<ItemListContainer titulo="Productos"/>}></Route>
             <Route path='/detalles/:id' element={<ItemDetailContainer titulo="Detalles"/>}></Route>
+            <Route path='/info' element={<Questions/>}></Route>
             <Route path='/cart' element={<Cart/>}></Route>
             <Route path='*' element={<h1 className='error-404'>Error 404</h1>}></Route>
           </Routes>

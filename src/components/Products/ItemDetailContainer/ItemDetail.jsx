@@ -14,7 +14,6 @@ function ItemDetail({ item }) {
     const onAdd = () => {
         setshow(false)
     }
-
     return (
         <div className="div-card-detail" >
             <div className="div-card-detail-izq">
