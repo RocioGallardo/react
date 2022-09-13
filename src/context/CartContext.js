@@ -21,10 +21,18 @@ const CartContextProvider = ({ children }) => {
             }
         }
     }
-    const removeItem = (itemId) => { }
-    const clear = () => { }
-    const isInCart = (id) => { }
-    
+
+    const removeItem = (itemId) => {
+        const filteredArray = cartList.filter(
+            (item) => item.id !== itemId
+        )
+        setCartList(filteredArray)
+        console.log(setCartList)
+    }
+
+    const clear = () => { setCartList([])
+    }
+    const isInCart = (id) => { cartList.some((item) => item.id === id)}
 
     const cantidadTotal = () => {
         if(cartList.length === 0 ){

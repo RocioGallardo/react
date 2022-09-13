@@ -5,7 +5,7 @@ function DetailCen({item}) {
 
     return (
         <>
-        {arrayImg.map(img => <img className="img-card-detail" key={id} src={`../${img}`}  alt={nombre} />)}
+        {arrayImg.map(img => <img className="img-card-detail" key={img} src={`../${img}`}  alt={nombre} />)}
         </>
     )
 }

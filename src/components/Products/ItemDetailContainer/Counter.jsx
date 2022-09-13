@@ -2,11 +2,11 @@ import { useCartContext } from '../../../context/CartContext';
 import useCounter from '../../Hooks/useCounter';
 
 
-function Counter({min, item, onAdd}) {
+function Counter({min, item, onAdd, stock}) {
 
     const {addItem} = useCartContext()
 
-    const {sumar, restar, reset, cont} = useCounter(item.stock, min)
+    const {sumar, restar, reset, cont} = useCounter(stock, min)
 
     const saveItemToCart = (nombre, id, cant) => {
         addItem(nombre, id, cant)
