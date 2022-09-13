@@ -8,16 +8,16 @@ const CartContextProvider = ({ children }) => {
 
     const [cartList, setCartList] = useState([])
 
-    const addItem = (nombre, id, quantify) => {
+    const addItem = (nombre, id, quantity) => {
         if (cartList.length === 0) {
-            setCartList([{ nombre: nombre, id: id, cant: quantify }])
+            setCartList([{ nombre: nombre, id: id, cant: quantity }])
         } else {
             const findItemInCart = cartList.find(producto => producto.id === id)
             if (findItemInCart) {
-                findItemInCart.cant = findItemInCart.cant + quantify
+                findItemInCart.cant = findItemInCart.cant + quantity
                 setCartList([...cartList])
             } else {
-                setCartList([...cartList, { nombre: nombre, id: id, cant: quantify }])
+                setCartList([...cartList, { nombre: nombre, id: id, cant: quantity }])
             }
         }
     }
@@ -30,8 +30,8 @@ const CartContextProvider = ({ children }) => {
         console.log(setCartList)
     }
 
-    const clear = () => { setCartList([])
-    }
+    const clear = () => { setCartList([])}
+
     const isInCart = (id) => { cartList.some((item) => item.id === id)}
 
     const cantidadTotal = () => {

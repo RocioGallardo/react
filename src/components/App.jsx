@@ -20,7 +20,8 @@ function App() {
         <NuevoNavbar/>
           <Routes>
             <Route path='/' element={<Home/>}></Route>
-            <Route path='/:categoria' element={<ItemListContainer titulo="Productos"/>}></Route>
+            <Route path='/productos' element={<ItemListContainer/>}></Route>
+            <Route path='/:categoria' element={<ItemListContainer/>}></Route>
             <Route path='/detalles/:id' element={<ItemDetailContainer titulo="Detalles"/>}></Route>
             <Route path='/info' element={<Questions/>}></Route>
             <Route path='/cart' element={<Cart/>}></Route>

@@ -22,7 +22,6 @@ function DetailDer({ item, onAdd, min, show }) {
     useEffect(() => {
         switch (item.categoria) {
             case "sujetadores":
-                
                 const tallecompleto = talleSelected + copaSelected
                 const objetosup = item.arrayStock.filter((el) => el.talle == tallecompleto)
                 setStock(objetosup[0].stock)

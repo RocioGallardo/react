@@ -2,13 +2,11 @@ import {useState} from 'react';
 import {Link} from 'react-router-dom'
 import MenuCostado from './MenuCostado';
 import './NuevoNavbar.css';
-import { useCartContext } from "../../context/CartContext";
+import CartWidget from '../Cart/CartWidget';
 
 
 function NuevoNavbar() {
 
-    const {cantidadTotal} = useCartContext()
-    
     const [classButton, setClassButton] = useState("menu-costado-inactivo")
 
     const switchButton = () => {
@@ -41,10 +39,7 @@ function NuevoNavbar() {
                             <Link to="/info" className="navbar-brand" > Ayuda </Link>
                         </li>
                         <li>
-                            <Link className='nav-cart' to="/cart" >
-                            <img className='cesta' src="../img/cesta.svg" alt="carrito" />
-                            <p>{cantidadTotal()}</p>
-                            </Link>
+                            <CartWidget/>
                         </li>
                     </ul>
                 </div>
