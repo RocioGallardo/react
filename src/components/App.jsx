@@ -6,7 +6,7 @@ import { ItemListContainer } from './Products/ItemListContainer/ItemListContaine
 import NuevoNavbar from './Navbar/NuevoNavbar';
 import Footer from './Footer/Footer';
 import { CartContextProvider } from '../context/CartContext';
-import Cart from './Cart/Cart';
+import CartContainer from './Cart/CartContainer';
 import Questions from './Info/Questions';
 
 
@@ -24,7 +24,7 @@ function App() {
             <Route path='/:categoria' element={<ItemListContainer/>}></Route>
             <Route path='/detalles/:id' element={<ItemDetailContainer titulo="Detalles"/>}></Route>
             <Route path='/info' element={<Questions/>}></Route>
-            <Route path='/cart' element={<Cart/>}></Route>
+            <Route path='/cart' element={<CartContainer/>}></Route>
             <Route path='*' element={<h1 className='error-404'>Error 404</h1>}></Route>
           </Routes>
         <Footer></Footer>

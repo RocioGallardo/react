@@ -1,26 +1,29 @@
-import React from 'react'
-import { productosjs } from '../Products/productosjs'
 import './cart.css'
 import { useCartContext } from "../../context/CartContext"
+import { productosjs } from '../Products/productosjs'
 
 
-function ItemCart({id, cant}) {
-
-    const {removeItem} = useCartContext()
-
-    const resultado = productosjs.find((el) => el.id === id)
-
+function ItemCart({ id, cant}) {
+    const { removeItem } = useCartContext()
+    const producto = productosjs.find((el) => el.id === id)
     return (
-        <div className='div-card-cart' key ={id}>
-            <img className="img-card-cart" src={resultado.img} alt={resultado.nombre}/>
+        <>
+        <div className='div-card-cart' key={producto.id}>
+            <img className="img-card-cart" src={producto.img} alt={producto.nombre} />
             <div className='info-card-cart'>
-                <p>{resultado.nombre}</p>
+                <p>{producto.nombre}</p>
                 <p>Cantidad: {cant}</p>
-                <p>Precio por unidad : {resultado.precio} ars</p>
-                <p>Precio total : {resultado.precio * cant} ars</p>
+                <p>Precio por unidad : {producto.precio} ars</p>
+                <p>Precio total : {producto.precio * cant} ars</p>
             </div>
-            <button className='btn' onClick={() => removeItem(id)}>eliminar del carrito</button>
+            <button onClick={() => removeItem(id)}>
+                <img className='cesta' src="../img/eliminar.svg" alt="eliminar" />
+            </button>
         </div>
+        
+        </>
+        
+        
     )
 }
 

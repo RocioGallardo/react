@@ -34,6 +34,7 @@ const CartContextProvider = ({ children }) => {
 
     const isInCart = (id) => { cartList.some((item) => item.id === id)}
 
+
     const cantidadTotal = () => {
         if(cartList.length === 0 ){
             return ""
@@ -44,7 +45,7 @@ const CartContextProvider = ({ children }) => {
     }    
 
     return (
-        <CartContext.Provider value={{ cartList, addItem, removeItem, clear, isInCart, cantidadTotal }}>
+        <CartContext.Provider value={{ cartList, addItem, removeItem, clear, isInCart, cantidadTotal}}>
             {children}
         </CartContext.Provider>
     )

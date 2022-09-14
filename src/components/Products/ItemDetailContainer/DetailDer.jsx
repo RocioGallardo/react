@@ -23,23 +23,23 @@ function DetailDer({ item, onAdd, min, show }) {
         switch (item.categoria) {
             case "sujetadores":
                 const tallecompleto = talleSelected + copaSelected
-                const objetosup = item.arrayStock.filter((el) => el.talle == tallecompleto)
+                const objetosup = item.arrayStock.filter((el) => el.talle === tallecompleto)
                 setStock(objetosup[0].stock)
                 break;
             case "bombachas":
-                const objetoinf = item.arrayStock.filter((el) => el.talle == talleI)
+                const objetoinf = item.arrayStock.filter((el) => el.talle === talleI)
                 setStock(objetoinf[0].stock) 
                 break;
             case "accesorios":
                 const tallePortaYLigas = talleI + talleLigas
-                const objetoacc = item.arrayStock.filter((el) => el.talle == tallePortaYLigas)
+                const objetoacc = item.arrayStock.filter((el) => el.talle === tallePortaYLigas)
                 setStock(objetoacc[0].stock) 
                 break;
             default:
                 break;
         }
         
-    })
+    }, [item.categoria, item.arrayStock, talleSelected, copaSelected, talleI, talleLigas])
 
     return (
         <div>
