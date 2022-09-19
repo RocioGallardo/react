@@ -12,6 +12,7 @@ function DetailDer({ item, onAdd, min, show }) {
     const [talleI, setTalleI] = useState("2xs")
     const [talleLigas, setTalleLigas] = useState(1)
     const [stock, setStock] = useState()
+    const [talleContext, setTalleContext] = useState()
 
     const valort = (event) => {setTalleSelected(event.target.value)}
     const valorc = (event) => {setCopaSelected(event.target.value.toLowerCase())}
@@ -25,15 +26,18 @@ function DetailDer({ item, onAdd, min, show }) {
                 const tallecompleto = talleSelected + copaSelected
                 const objetosup = item.arrayStock.filter((el) => el.talle === tallecompleto)
                 setStock(objetosup[0].stock)
+                setTalleContext(tallecompleto)
                 break;
             case "bombachas":
                 const objetoinf = item.arrayStock.filter((el) => el.talle === talleI)
                 setStock(objetoinf[0].stock) 
+                setTalleContext(talleI)
                 break;
             case "accesorios":
                 const tallePortaYLigas = talleI + talleLigas
                 const objetoacc = item.arrayStock.filter((el) => el.talle === tallePortaYLigas)
-                setStock(objetoacc[0].stock) 
+                setStock(objetoacc[0].stock)
+                setTalleContext(tallePortaYLigas)
                 break;
             default:
                 break;
@@ -76,7 +80,7 @@ function DetailDer({ item, onAdd, min, show }) {
                     <Link to="/talles">
                         <button className="">Encontrá tu talle</button>
                     </Link>
-                    <Counter onAdd={onAdd} min={min} item={item} stock={stock} />
+                    <Counter onAdd={onAdd} min={min} item={item} stock={stock} talleContext={talleContext}/>
                 </>
                 :
                 <Link to="/cart"><button className='btn' >Ir al Carrito</button></Link>}

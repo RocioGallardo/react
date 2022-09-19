@@ -5,14 +5,19 @@ import ItemCart from "./ItemCart"
 
 
 function Cart() {
-    const {cartList, clear} = useCartContext()
-    
+    const {cartList, clear, totalCart} = useCartContext()
+    const key = (id, talle) => {
+        return id+talle
+    }
     return (
     <>  
         {cartList.length ? 
         <div className="carrito-lleno">
-            {cartList.map(item => <ItemCart id={item.id} key={item.id} cant={item.cant}/>)}
-            <button className="btn" onClick={() => clear()}> limpiar carrito</button> 
+            {
+            cartList.map(item => 
+            <ItemCart id={item.id} key={key(item.id, item.talle)} cant={item.cant} talle={item.talle}/>)}
+            <button className="btn" onClick={() => clear()}> limpiar carrito</button>
+            <h1>total carrito : {totalCart()}</h1>
         </div>
         :
         <div className="carrito-vacio">
