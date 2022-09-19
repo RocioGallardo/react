@@ -9,9 +9,6 @@ const CartContextProvider = ({ children }) => {
     const [cartList, setCartList] = useState([])
 
     const addItem = (id, cant, talle, precio) => {
-        if (cartList.length === 0) {
-            setCartList([{id: id, cant: cant, talle: talle, precio: precio}])
-        } else {
             const findItemInCart = cartList.find(producto => producto.id === id && producto.talle === talle)
             if (findItemInCart) {
                 findItemInCart.cant = findItemInCart.cant + cant
@@ -22,6 +19,7 @@ const CartContextProvider = ({ children }) => {
         }
     }
 
+
     const removeItem = (itemId, talle) => {
         const filteredArray = cartList.filter(
             (item) => item.id !== itemId || item.talle!== talle
@@ -30,10 +28,6 @@ const CartContextProvider = ({ children }) => {
     }
 
     const clear = () => { setCartList([])}
-
-    
-
-    const isInCart = (id) => { cartList.some((item) => item.id === id)}
 
 
     const cantidadTotal = () => {
