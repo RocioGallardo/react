@@ -9,7 +9,7 @@ export const Item = ({item}) => {
     return (
         <div className="card-productos" key={id}>
             <Link to={`/detalles/${id}`}>
-                <img src={`../${img}`} className="img-card-productos" alt="imagen-producto1"/>
+                <img src={`${img}`} className="img-card-productos" alt="imagen-producto1"/>
                     {/* <button className=''>Ver mas detalles</button> */}
             </Link>
             <div className='detalles-card-productos'>

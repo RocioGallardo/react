@@ -21,10 +21,10 @@ function NuevoNavbar() {
             <nav className='nav'>
                 <div className='nav-div'>
                     <button>
-                        <img className="img-btn-menu" src="../img/menu.svg" alt="menu" onClick={() => {switchButton()}}/>
+                        <img className="img-btn-menu" src="https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/menu.svg?alt=media&token=f7c15f21-74bd-4211-88f9-8252c36ef502" alt="menu" onClick={() => {switchButton()}}/>
                     </button>
                     <Link to="/">
-                        <img className='logo-brave' src="../img/brave2.svg" alt="logo-brave"/>
+                        <img className='logo-brave' src="https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/brave2.svg?alt=media&token=b60842a9-241e-4284-bbe8-fe0c07535c20" alt="logo-brave"/>
                     </Link>
                 </div>
                 <div className='nav-div'>

@@ -1,0 +1,1254 @@
+[
+        {
+                "id": 0,
+                "nombre": "Corpiño con aro",
+                "precio": 3500,
+                "arrayImg": [
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/arco.jpg?alt=media&token=d32b34e2-3692-46be-8420-54377d5f4e50"
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/arco.jpg?alt=media&token=d32b34e2-3692-46be-8420-54377d5f4e50",
+                "tallesup": [
+                        26,
+                        28,
+                        30,
+                        32,
+                        34,
+                        36,
+                        38,
+                        40,
+                        42
+                ],
+                "copa": [
+                        "b",
+                        "c",
+                        "d",
+                        "dd",
+                        "e",
+                        "ee"
+                ],
+                "talleinf": [],
+                "ligas": [],
+                "arrayStock": [
+                        {
+                                "talle": "26b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "26c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "26d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "26dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "26e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "26ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "28b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "28c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "28d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "28dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "28e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "28ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "30b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "30c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "30d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "30dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "30e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "30ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "32b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "32c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "32d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "32dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "32e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "32ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "34b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "34c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "34d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "34dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "34e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "34ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "36b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "36c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "36d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "36dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "36e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "36ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "38b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "38c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "38d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "38dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "38e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "38ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "40b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "40c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "40d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "40dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "40e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "40ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "42b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "42c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "42d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "42dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "42e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "42ee",
+                                "stock": 6
+                        }
+                ],
+                "coleccion": "Muérdago",
+                "categoria": "sujetadores",
+                "tipoDePrenda": "con aro",
+                "detalles": "Acá van los detallesLorem ipsum dolor sit amet consectetur, adipisicing elit. Totam accusantium, ullam, doloremque officia dolores inventore dolor soluta ipsa officiis sint, aspernatur eaque? Facere perspiciatis et a veritatis! Voluptas, est odit minima quod ipsa pariatur doloribus sapiente corrupti nobis iste et quae quibusdam. Quae aliquam neque rerum natus velit optio sed aspernatur debitis nihil dolorum. Aperiam, numquam labore. Ducimus distinctio sed provident maxime nulla, atque impedit eveniet doloribus! Labore illum odit deserunt quo, delectus molestiae eius! Nisi, facere vel? Porro ullam error."
+        },
+        {
+                "id": 1,
+                "nombre": "Corpiño triangulo",
+                "precio": 3200,
+                "arrayImg": [
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/triangulo.jpg?alt=media&token=d7dac6f6-97ca-4407-abe2-091cdb70af8f"
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/triangulo.jpg?alt=media&token=d7dac6f6-97ca-4407-abe2-091cdb70af8f",
+                "tallesup": [
+                        26,
+                        28,
+                        30,
+                        32,
+                        34,
+                        36,
+                        38,
+                        40,
+                        42
+                ],
+                "copa": [
+                        "b",
+                        "c",
+                        "d",
+                        "dd",
+                        "e",
+                        "ee"
+                ],
+                "talleinf": [],
+                "ligas": [],
+                "arrayStock": [
+                        {
+                                "talle": "26b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "26c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "26d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "26dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "26e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "26ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "28b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "28c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "28d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "28dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "28e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "28ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "30b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "30c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "30d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "30dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "30e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "30ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "32b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "32c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "32d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "32dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "32e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "32ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "34b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "34c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "34d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "34dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "34e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "34ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "36b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "36c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "36d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "36dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "36e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "36ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "38b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "38c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "38d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "38dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "38e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "38ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "40b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "40c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "40d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "40dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "40e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "40ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "42b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "42c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "42d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "42dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "42e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "42ee",
+                                "stock": 6
+                        }
+                ],
+                "coleccion": "Muérdago",
+                "categoria": "sujetadores",
+                "tipoDePrenda": "triangulo",
+                "detalles": "Acá van los detalles"
+        },
+        {
+                "id": 2,
+                "nombre": "Tanga",
+                "precio": 2000,
+                "arrayImg": [
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/tanga.jpg?alt=media&token=ed12a34b-4307-468c-a7a1-983c52c99b67"
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/tanga.jpg?alt=media&token=ed12a34b-4307-468c-a7a1-983c52c99b67",
+                "tallesup": [],
+                "copa": [],
+                "talleinf": [
+                        "2xs",
+                        "xs",
+                        "s",
+                        "m",
+                        "l",
+                        "xl",
+                        "2xl",
+                        "3xl",
+                        "4xl",
+                        "5xl"
+                ],
+                "ligas": [],
+                "arrayStock": [
+                        {
+                                "talle": "2xs",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "xs",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "s",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "m",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "l",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "xl",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "2xl",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "3xl",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "4xl",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "5xl",
+                                "stock": 4
+                        }
+                ],
+                "coleccion": "Muérdago",
+                "categoria": "bombachas",
+                "tipoDePrenda": "tanga",
+                "detalles": "Acá van los detalles"
+        },
+        {
+                "id": 3,
+                "nombre": "Vedetina",
+                "precio": 2200,
+                "arrayImg": [
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/vedetina.jpg?alt=media&token=feb7c39c-eb78-4a42-9154-2cbb7cf31f89"
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/vedetina.jpg?alt=media&token=feb7c39c-eb78-4a42-9154-2cbb7cf31f89",
+                "tallesup": [],
+                "copa": [],
+                "talleinf": [
+                        "2xs",
+                        "xs",
+                        "s",
+                        "m",
+                        "l",
+                        "xl",
+                        "2xl",
+                        "3xl",
+                        "4xl",
+                        "5xl"
+                ],
+                "ligas": [],
+                "arrayStock": [
+                        {
+                                "talle": "2xs",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "xs",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "s",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "m",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "l",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "xl",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "2xl",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "3xl",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "4xl",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "5xl",
+                                "stock": 4
+                        }
+                ],
+                "coleccion": "Muérdago",
+                "categoria": "bombachas",
+                "tipoDePrenda": "vedetina",
+                "detalles": "Acá van los detalles"
+        },
+        {
+                "id": 4,
+                "nombre": "Culotte",
+                "precio": 2300,
+                "arrayImg": [
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/culotte.jpg?alt=media&token=41eb3f00-58f3-45a2-93c6-711d1ee0e2e2"
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/culotte.jpg?alt=media&token=41eb3f00-58f3-45a2-93c6-711d1ee0e2e2",
+                "tallesup": [],
+                "copa": [],
+                "talleinf": [
+                        "2xs",
+                        "xs",
+                        "s",
+                        "m",
+                        "l",
+                        "xl",
+                        "2xl",
+                        "3xl",
+                        "4xl",
+                        "5xl"
+                ],
+                "ligas": [],
+                "arrayStock": [
+                        {
+                                "talle": "2xs",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "xs",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "s",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "m",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "l",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "xl",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "2xl",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "3xl",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "4xl",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "5xl",
+                                "stock": 4
+                        }
+                ],
+                "coleccion": "Muérdago",
+                "categoria": "bombachas",
+                "tipoDePrenda": "culotte",
+                "detalles": "Acá van los detalles"
+        },
+        {
+                "id": 5,
+                "nombre": "Portaligas",
+                "precio": 3500,
+                "arrayImg": [
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/portaligas.jpg?alt=media&token=ee16b44c-bd51-46b5-bc3d-7f08b20cd5f0"
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/portaligas.jpg?alt=media&token=ee16b44c-bd51-46b5-bc3d-7f08b20cd5f0",
+                "tallesup": [],
+                "copa": [],
+                "talleinf": [
+                        "2xs",
+                        "xs",
+                        "s",
+                        "m",
+                        "l",
+                        "xl",
+                        "2xl",
+                        "3xl",
+                        "4xl",
+                        "5xl"
+                ],
+                "ligas": [
+                        1,
+                        2,
+                        3,
+                        4
+                ],
+                "arrayStock": [
+                        {
+                                "talle": "2xs1",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "2xs2",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "2xs3",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "2xs4",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "xs1",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "xs2",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "xs3",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "xs4",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "s1",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "s2",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "s3",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "s4",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "m1",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "m2",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "m3",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "m4",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "l1",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "l2",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "l3",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "l4",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "xl1",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "xl2",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "xls3",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "xls4",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "2xl1",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "2xl2",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "2xl3",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "2xl4",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "3xl1",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "3xl2",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "3xl3",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "3xl4",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "4xl1",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "4xl2",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "4xl3",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "4xl4",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "5xl1",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "5xl2",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "5xl3",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "5xl4",
+                                "stock": 4
+                        }
+                ],
+                "coleccion": "Muérdago",
+                "categoria": "accesorios",
+                "tipoDePrenda": "portaliga",
+                "detalles": "Acá van los detalles"
+        },
+        {
+                "id": 6,
+                "nombre": "Corpiño con aro bajo",
+                "precio": 3000,
+                "arrayImg": [
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/arobajo.jpg?alt=media&token=571a589a-e7db-40d3-9287-effa9ef0b254",
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/vedetina.jpg?alt=media&token=feb7c39c-eb78-4a42-9154-2cbb7cf31f89",
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/con-aro-img2.jpeg?alt=media&token=483999ec-51f1-49b8-8cb4-b11b8a9d04cb"
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/arobajo.jpg?alt=media&token=571a589a-e7db-40d3-9287-effa9ef0b254",
+                "tallesup": [
+                        26,
+                        28,
+                        30,
+                        32,
+                        34,
+                        36,
+                        38,
+                        40,
+                        42
+                ],
+                "copa": [
+                        "b",
+                        "c",
+                        "d",
+                        "dd",
+                        "e",
+                        "ee"
+                ],
+                "talleinf": [],
+                "ligas": [],
+                "arrayStock": [
+                        {
+                                "talle": "26b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "26c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "26d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "26dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "26e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "26ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "28b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "28c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "28d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "28dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "28e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "28ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "30b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "30c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "30d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "30dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "30e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "30ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "32b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "32c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "32d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "32dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "32e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "32ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "34b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "34c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "34d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "34dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "34e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "34ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "36b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "36c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "36d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "36dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "36e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "36ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "38b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "38c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "38d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "38dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "38e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "38ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "40b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "40c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "40d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "40dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "40e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "40ee",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "42b",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "42c",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "42d",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "42dd",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "42e",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "42ee",
+                                "stock": 6
+                        }
+                ],
+                "stock": 5,
+                "coleccion": "Muérdago",
+                "categoria": "sujetadores",
+                "tipoDePrenda": "con aro",
+                "detalles": "Acá van los detalles"
+        },
+        {
+                "id": 7,
+                "nombre": "Abierta",
+                "precio": 2700,
+                "arrayImg": [
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/abierta.jpg?alt=media&token=4d120699-6a23-473f-a699-6b962153e9e2"
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/abierta.jpg?alt=media&token=4d120699-6a23-473f-a699-6b962153e9e2",
+                "tallesup": [],
+                "copa": [],
+                "talleinf": [
+                        "2xs",
+                        "xs",
+                        "s",
+                        "m",
+                        "l",
+                        "xl",
+                        "2xl",
+                        "3xl",
+                        "4xl",
+                        "5xl"
+                ],
+                "ligas": [],
+                "arrayStock": [
+                        {
+                                "talle": "2xs",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "xs",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "s",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "m",
+                                "stock": 4
+                        },
+                        {
+                                "talle": "l",
+                                "stock": 5
+                        },
+                        {
+                                "talle": "xl",
+                                "stock": 6
+                        },
+                        {
+                                "talle": "2xl",
+                                "stock": 1
+                        },
+                        {
+                                "talle": "3xl",
+                                "stock": 2
+                        },
+                        {
+                                "talle": "4xl",
+                                "stock": 3
+                        },
+                        {
+                                "talle": "5xl",
+                                "stock": 4
+                        }
+                ],
+                "coleccion": "Muérdago",
+                "categoria": "bombachas",
+                "tipoDePrenda": "abierta",
+                "detalles": "Acá van los detalles"
+        },
+        {
+                "id": 8,
+                "nombre": "Giftcard 5000",
+                "precio": 5000,
+                "arrayImg": [
+                        "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/giftcard.jpg?alt=media&token=90cb6ed1-e7bc-49ee-8c49-39328c05cb6c"
+                ],
+                "img": "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/giftcard.jpg?alt=media&token=90cb6ed1-e7bc-49ee-8c49-39328c05cb6c",
+                "tallesup": [],
+                "copa": [],
+                "talleinf": [],
+                "ligas": [],
+                "arrayStock": [],
+                "coleccion": "Muérdago",
+                "categoria": "giftcards",
+                "tipoDePrenda": "giftcard",
+                "detalles": "Acá van los detalles"
+        }
+]

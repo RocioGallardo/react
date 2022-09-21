@@ -8,6 +8,7 @@ import Footer from './Footer/Footer';
 import { CartContextProvider } from '../context/CartContext';
 import CartContainer from './Cart/CartContainer';
 import Questions from './Info/Questions';
+import Checkout from './Checkout/Checkout';
 
 
 
@@ -25,6 +26,7 @@ function App() {
             <Route path='/detalles/:id' element={<ItemDetailContainer titulo="Detalles"/>}></Route>
             <Route path='/info' element={<Questions/>}></Route>
             <Route path='/cart' element={<CartContainer/>}></Route>
+            <Route path='/checkout' element={<Checkout/>}></Route>
             <Route path='*' element={<h1 className='error-404'>Error 404</h1>}></Route>
           </Routes>
         <Footer></Footer>

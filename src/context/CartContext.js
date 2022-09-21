@@ -9,13 +9,12 @@ const CartContextProvider = ({ children }) => {
     const [cartList, setCartList] = useState([])
 
     const addItem = (id, cant, talle, precio) => {
-            const findItemInCart = cartList.find(producto => producto.id === id && producto.talle === talle)
-            if (findItemInCart) {
-                findItemInCart.cant = findItemInCart.cant + cant
-                setCartList([...cartList])
-            } else {
-                setCartList([...cartList, {id: id, cant: cant, talle: talle, precio: precio }])
-            }
+        const findItemInCart = cartList.find(producto => producto.id === id && producto.talle === talle)
+        if (findItemInCart) {
+            findItemInCart.cant = findItemInCart.cant + cant
+            setCartList([...cartList])
+        } else {
+            setCartList([...cartList, {id: id, cant: cant, talle: talle, precio: precio }])
         }
     }
 
@@ -41,7 +40,7 @@ const CartContextProvider = ({ children }) => {
     }
 
     return (
-        <CartContext.Provider value={{ cartList, addItem, removeItem, clear, isInCart, cantidadTotal, totalCart}}>
+        <CartContext.Provider value={{ cartList, addItem, removeItem, clear, cantidadTotal, totalCart}}>
             {children}
         </CartContext.Provider>
     )
