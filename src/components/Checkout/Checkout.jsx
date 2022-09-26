@@ -102,11 +102,11 @@ function Checkout() {
             </form>
         </div>
             :
-            <>
-                <h1 className="error-404">Felicitaciones</h1>
-                <p>tu compra ha sido realizada</p>
-                <h2 className="error-404"> Orden nro : {numVenta}</h2>
-            </>
+            <div className="cartel-checkout">
+                <h2>Felicitaciones</h2>
+                <h3>tu compra ha sido realizada</h3>
+                <h3> Orden nro : {numVenta}</h3>
+            </div>
     )
 }
 

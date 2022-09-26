@@ -11,3 +11,9 @@
     flex-direction: column;
 }
 
+.cartel-checkout{
+    width: 50%;
+    margin: auto;
+    padding: 150px;
+    text-align: center;
+}
