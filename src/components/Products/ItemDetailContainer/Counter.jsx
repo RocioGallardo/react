@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useCartContext } from '../../../context/CartContext';
 import useCounter from '../../Hooks/useCounter';
 
@@ -12,6 +13,10 @@ function Counter({min, item, onAdd, stock, talleContext}) {
         addItem(id, cant, talle, precio)
         onAdd()
     }
+    useEffect(() => {
+    
+    }, [stock])
+    
 
     return (
         <>
@@ -20,7 +25,11 @@ function Counter({min, item, onAdd, stock, talleContext}) {
             <button className='btn-counter bold' onClick={reset}>Reset</button>
             <button className='btn-counter bold' onClick={sumar}>+</button>
         </div>
-        <button className='btn' onClick={() => saveItemToCart(item.id, cont, talleContext, item.precio)}>Añadir {cont} a la cesta</button>
+        {stock >= 1 ? 
+            <button className='btn' onClick={() => saveItemToCart(item.id, cont, talleContext, item.precio)}>Añadir {cont} a la cesta</button> : 
+            <button className='btn btn-disabled' disabled> Sin Stock </button>
+            }
+        
         </>
     )
 }

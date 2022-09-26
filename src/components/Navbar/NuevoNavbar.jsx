@@ -5,6 +5,7 @@ import './NuevoNavbar.css';
 import CartWidget from '../Cart/CartWidget';
 
 
+
 function NuevoNavbar() {
 
     const [classButton, setClassButton] = useState("menu-costado-inactivo")
@@ -44,7 +45,7 @@ function NuevoNavbar() {
                     </ul>
                 </div>
             </nav>
-            <MenuCostado classButton={classButton}/>
+            <MenuCostado classButton={classButton} setClassButton={setClassButton}/>
         </>
     )
 }

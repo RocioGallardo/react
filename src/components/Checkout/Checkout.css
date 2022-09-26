@@ -1,0 +1,13 @@
+.checkout-container{
+    padding: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.form-checkout{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
