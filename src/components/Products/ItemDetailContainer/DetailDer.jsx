@@ -9,7 +9,7 @@ function DetailDer({ item, onAdd, min, show }) {
     const { tallesup, copa, talleinf, ligas} = item
     const [talleSelected, setTalleSelected] = useState(26)
     const [copaSelected, setCopaSelected] = useState("b")
-    const [talleI, setTalleI] = useState("2xs")
+    const [talleI, setTalleI] = useState("xs")
     const [talleLigas, setTalleLigas] = useState(1)
     const [stock, setStock] = useState()
     const [talleContext, setTalleContext] = useState()
@@ -30,6 +30,7 @@ function DetailDer({ item, onAdd, min, show }) {
                 break;
             case "bombachas":
                 const objetoinf = item.arrayStock.filter((el) => el.talle === talleI)
+                console.log(objetoinf)
                 setStock(objetoinf[0].stock) 
                 setTalleContext(talleI)
                 break;

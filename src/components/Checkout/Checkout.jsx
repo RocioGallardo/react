@@ -37,21 +37,25 @@ function Checkout() {
         clear()
 
     }
-    const updateStock = async (items) => {
+/* 
+    ESTO NO LO VEAS MATI, ESTOY HACIENDO PRUEBITAS PARA EL STOCK
+        const updateStock = async (items) => {
         await items.forEach(async (item) => {
         const {id, talle, cantidad} = item
         const itemRef = doc(db, "productos", id)
         const docu = await getDoc(itemRef)
         const result = {...docu.data()}
+        console.log(result.arrayStock)
+        const arraYStockFiltrado = result.arrayStock.filter((el) => el.talle != talle)
         const stockArr = result.arrayStock.filter((el) => el.talle === talle)
+        
+        console.log(stockArr)
         const stock = stockArr[0].stock
         const nuevoStock = stock - cantidad
-        await setDoc(itemRef, {arrayStock: [{talle : talle, stock: nuevoStock}]}, {merge:true})
+        arraYStockFiltrado.push({talle: talle, stock: nuevoStock})
+        await setDoc(itemRef, {arrayStock: {...arraYStockFiltrado}}, {merge:true})
         })
-    }
-
-
-
+    } */
     const handlerSubmit = (e) => {
         e.preventDefault()
         const items = cartList.map((item) => { return { id: item.id, talle: item.talle, cantidad: item.cant, precio: item.precio } })
@@ -59,7 +63,7 @@ function Checkout() {
         const total = totalCart()
         const data = { comprador, items, date, total }
         generarOrden(data)
-        updateStock(items)
+        // updateStock(items)
     }
 
     return (
