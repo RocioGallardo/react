@@ -1,8 +1,12 @@
 .checkout-container{
-    padding: 100px;
     display: flex;
     flex-direction: row-reverse;
 }
+
+
+
+
+
 
 .form-checkout{
     margin: auto;
@@ -16,4 +20,69 @@
     margin: auto;
     padding: 150px;
     text-align: center;
+}
+
+
+.div-items-checkout{
+    width: 400px;
+    height: 100vh;
+    background-color: #eee;
+    position: relative;
+    z-index: 100;
+}
+
+.h2-div-items-checkout{
+    margin: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card-checkout{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start
+}
+.info-card-checkout{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.div-montos-checkout{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "subtotal montosubtotal"
+    "envio montoenvio"
+    "total montototal";
+    justify-items: flex-start;
+}
+.subtotal{
+    grid-area: subtotal;
+}
+.montoSubtotal{
+    grid-area: montosubtotal;
+}
+.envio{
+    grid-area: envio;
+}
+.montoEnvio{
+    grid-area: montoenvio;
+}
+.total{
+    grid-area: total;
+}
+.montoTotal{
+    grid-area: montototal;
+}
+.p-items-checkout{
+    text-align: center;
+}
+
+
+
+.img-card-checkout{
+    width: 100px;
 }

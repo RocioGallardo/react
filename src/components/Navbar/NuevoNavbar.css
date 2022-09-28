@@ -2,31 +2,32 @@
 .nav{
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     position: fixed;
     justify-content: space-between;
     color: #000;
-    background-color: transparent;
+    background-color: #fff;
     z-index: 100;
 }
 
-
 .img-btn-menu{
-    margin: 7px 20px 5px;
+    margin: 7px 20px;
     width: 15px;
 }
+
 .cesta{
     width: 25px;
 }
 button{
     background-color: transparent;
     border: none;
-
 }
+
 ul{
     display: flex;
     align-items: center;
 }
+
 li{
     margin: 0 20px;
 }
@@ -34,11 +35,11 @@ li{
 .nav-div{
     padding: 15px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .logo-brave{
-    width: 230px;
+    width: 150px;
 }
 
 .nav-cart{

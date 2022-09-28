@@ -30,9 +30,9 @@ function ListaCostado({buttonClicked, setClassButton}) {
         switch (buttonClicked) {
             case "prendas": 
                 setlista(categorias.map((categoria) => 
-                    <li className='li-lista-costado' key={categoria}>
-                        <Link to={`/${categoria}`} onClick={() => {setClassButton("menu-costado-inactivo")}} >{categoria}</Link>
-                    </li>))
+                <li className='li-lista-costado' key={categoria}>
+                    <Link to={`/${categoria}`} onClick={() => {setClassButton("menu-costado-inactivo")}} >{categoria}</Link>
+                </li>))
                 break;
             case "colecciones": setlista(colecciones.map((coleccion) => 
                 <li className='li-lista-costado' key={coleccion} >
@@ -53,6 +53,10 @@ function ListaCostado({buttonClicked, setClassButton}) {
 
     return (
         <ul className='ul-lista-costado'>
+            <li className='li-lista-costado'>
+                <Link to="/productos" onClick={() => {setClassButton("menu-costado-inactivo")}} >Todos los productos</Link>
+            </li>
+            
             {lista}
         </ul>
     )

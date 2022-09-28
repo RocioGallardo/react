@@ -1,0 +1,12 @@
+.input-buscar{
+    margin: 0 5%;
+    padding: 170px 30px 30px;
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: large;
+}
+
+.input-buscar:focus-visible{
+    outline: none;
+}

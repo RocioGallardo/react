@@ -4,7 +4,7 @@ import './Item.css'
 
 export const Item = ({item}) => {
 
-    const { id, nombre,  precio,img, coleccion } = item
+    const { id, nombre,  precio, img, coleccion } = item
 
     return (
         <div className="card-productos" key={id}>

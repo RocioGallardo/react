@@ -1,7 +1,7 @@
 [
         {
                 "id": 0,
-                "nombre": "Corpiño con aro",
+                "nombre": "corpiño con aro",
                 "precio": 3500,
                 "arrayImg": [
                         "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/arco.jpg?alt=media&token=d32b34e2-3692-46be-8420-54377d5f4e50"
@@ -246,14 +246,14 @@
                                 "stock": 6
                         }
                 ],
-                "coleccion": "Muérdago",
+                "coleccion": "muérdago",
                 "categoria": "sujetadores",
                 "tipoDePrenda": "con aro",
-                "detalles": "Acá van los detallesLorem ipsum dolor sit amet consectetur, adipisicing elit. Totam accusantium, ullam, doloremque officia dolores inventore dolor soluta ipsa officiis sint, aspernatur eaque? Facere perspiciatis et a veritatis! Voluptas, est odit minima quod ipsa pariatur doloribus sapiente corrupti nobis iste et quae quibusdam. Quae aliquam neque rerum natus velit optio sed aspernatur debitis nihil dolorum. Aperiam, numquam labore. Ducimus distinctio sed provident maxime nulla, atque impedit eveniet doloribus! Labore illum odit deserunt quo, delectus molestiae eius! Nisi, facere vel? Porro ullam error."
+                "detalles": "Corpiño color rosa de raso doble, puntilla y forro en microtul ,con arco medio y escote triangular, breteles de 15mm y broche en la espalda de tres posiciones. Forma parte de nuestra cápsula Muérdago"
         },
         {
                 "id": 1,
-                "nombre": "Corpiño triangulo",
+                "nombre": "corpiño triangulo",
                 "precio": 3200,
                 "arrayImg": [
                         "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/triangulo.jpg?alt=media&token=d7dac6f6-97ca-4407-abe2-091cdb70af8f"
@@ -505,7 +505,7 @@
         },
         {
                 "id": 2,
-                "nombre": "Tanga",
+                "nombre": "tanga",
                 "precio": 2000,
                 "arrayImg": [
                         "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/tanga.jpg?alt=media&token=ed12a34b-4307-468c-a7a1-983c52c99b67"
@@ -568,14 +568,14 @@
                                 "stock": 4
                         }
                 ],
-                "coleccion": "Muérdago",
+                "coleccion": "muérdago",
                 "categoria": "bombachas",
                 "tipoDePrenda": "tanga",
                 "detalles": "Acá van los detalles"
         },
         {
                 "id": 3,
-                "nombre": "Vedetina",
+                "nombre": "vedetina",
                 "precio": 2200,
                 "arrayImg": [
                         "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/vedetina.jpg?alt=media&token=feb7c39c-eb78-4a42-9154-2cbb7cf31f89"
@@ -638,14 +638,14 @@
                                 "stock": 4
                         }
                 ],
-                "coleccion": "Muérdago",
+                "coleccion": "muérdago",
                 "categoria": "bombachas",
                 "tipoDePrenda": "vedetina",
                 "detalles": "Acá van los detalles"
         },
         {
                 "id": 4,
-                "nombre": "Culotte",
+                "nombre": "culotte",
                 "precio": 2300,
                 "arrayImg": [
                         "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/culotte.jpg?alt=media&token=41eb3f00-58f3-45a2-93c6-711d1ee0e2e2"
@@ -708,14 +708,14 @@
                                 "stock": 4
                         }
                 ],
-                "coleccion": "Muérdago",
+                "coleccion": "muérdago",
                 "categoria": "bombachas",
                 "tipoDePrenda": "culotte",
                 "detalles": "Acá van los detalles"
         },
         {
                 "id": 5,
-                "nombre": "Portaligas",
+                "nombre": "portaligas",
                 "precio": 3500,
                 "arrayImg": [
                         "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/portaligas.jpg?alt=media&token=ee16b44c-bd51-46b5-bc3d-7f08b20cd5f0"
@@ -903,14 +903,14 @@
                                 "stock": 4
                         }
                 ],
-                "coleccion": "Muérdago",
+                "coleccion": "muérdago",
                 "categoria": "accesorios",
                 "tipoDePrenda": "portaliga",
                 "detalles": "Acá van los detalles"
         },
         {
                 "id": 6,
-                "nombre": "Corpiño con aro bajo",
+                "nombre": "corpiño con aro bajo",
                 "precio": 3000,
                 "arrayImg": [
                         "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/arobajo.jpg?alt=media&token=571a589a-e7db-40d3-9287-effa9ef0b254",
@@ -1158,14 +1158,14 @@
                         }
                 ],
                 "stock": 5,
-                "coleccion": "Muérdago",
+                "coleccion": "muérdago",
                 "categoria": "sujetadores",
                 "tipoDePrenda": "con aro",
                 "detalles": "Acá van los detalles"
         },
         {
                 "id": 7,
-                "nombre": "Abierta",
+                "nombre": "abierta",
                 "precio": 2700,
                 "arrayImg": [
                         "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/abierta.jpg?alt=media&token=4d120699-6a23-473f-a699-6b962153e9e2"
@@ -1228,14 +1228,14 @@
                                 "stock": 4
                         }
                 ],
-                "coleccion": "Muérdago",
+                "coleccion": "muérdago",
                 "categoria": "bombachas",
                 "tipoDePrenda": "abierta",
                 "detalles": "Acá van los detalles"
         },
         {
                 "id": 8,
-                "nombre": "Giftcard 5000",
+                "nombre": "giftcard 5000",
                 "precio": 5000,
                 "arrayImg": [
                         "https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/giftcard.jpg?alt=media&token=90cb6ed1-e7bc-49ee-8c49-39328c05cb6c"
@@ -1246,7 +1246,7 @@
                 "talleinf": [],
                 "ligas": [],
                 "arrayStock": [],
-                "coleccion": "Muérdago",
+                "coleccion": "muérdago",
                 "categoria": "giftcards",
                 "tipoDePrenda": "giftcard",
                 "detalles": "Acá van los detalles"

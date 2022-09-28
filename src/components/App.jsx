@@ -9,6 +9,7 @@ import { CartContextProvider } from '../context/CartContext';
 import CartContainer from './Cart/CartContainer';
 import Questions from './Info/Questions';
 import Checkout from './Checkout/Checkout';
+import Buscar from './Buscar/Buscar';
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/productos' element={<ItemListContainer />}></Route>
+            <Route path='/buscar' element={<Buscar/>}></Route>
             <Route path='/:categoria' element={<ItemListContainer />}></Route>
             <Route path='/detalles/:id' element={<ItemDetailContainer titulo="Detalles" />}></Route>
             <Route path='/info' element={<Questions />}></Route>

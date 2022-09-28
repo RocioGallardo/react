@@ -13,6 +13,7 @@
     letter-spacing: 1px;
     scroll-behavior: smooth;
 }
+
 body{
     overflow-x: hidden;
 }
@@ -88,4 +89,9 @@ button {
     100% {
         transform: rotate(1800deg);
     }
+}
+
+hr{
+    width: 90%;
+    margin: auto;
 }
