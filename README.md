@@ -11,6 +11,8 @@ Para poder ejecutar el código deberás colocar el siguiente código en tu conso
 
 ```bash
  npm install
+```
+```
  npm run start
 ```
 
