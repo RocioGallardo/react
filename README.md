@@ -22,7 +22,7 @@ Firebase
 
 ## Imágenes del Proyecto
 
-## Autores y agradecimientos
+## Agradecimientos
 Este proyecto se hizo para practicar todo lo aprendido en el curso de React js de Coderhouse, y presentarlo como Proyecto Final.
 No teno más que palabras de agradecimiento a 
 [Francisco Pugh](https://github.com/franciscopugh/) por tan espectaculares clases y los mejores consejos. [Matías Aramayo](https://github.com/maramayo95) Mi gran tutor ! siempre pendiente en ayudar, dándome info extra a toda hora cuando no comprendía algo del todo y siempre con muchísimo interés de verme aprender. Y por supuesto a [Miguel Raad](https://github.com/miguelraad28) por la grata compañía al codear y ayudarme cada vez que se me complicaba encontrar soluciones.
