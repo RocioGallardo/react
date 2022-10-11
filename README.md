@@ -1,7 +1,7 @@
 
 # Tienda Brave 
 
-Tienda Brave es una página e-commerce que vende lencería con una tabla de talles diferenciada
+Tienda Brave es una sitio e-commerce que vende lencería con una tabla de talles diferenciada
 El sitio le permite al usuario ver los productos de la marca dependiendo la categoría, ver detalles, agregar productos al carrito sin superar el stock del mismo y finalizar la compra (sin métodos de pagos incluidos). Al finalizar la compra se le muestra el número de orden en pantalla y se guarda la información en la base de datos utilizada.
 
 
