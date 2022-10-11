@@ -1,70 +1,28 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tienda Brave 
 
-## Available Scripts
+Tienda Brave es una página e-commerce que vende lencería con una tabla de talles diferenciada
+El sitio le permite al usuario ver los productos de la marca dependiendo la categoría, ver detalles, agregar productos al carrito sin superar el stock del mismo y finalizar la compra (sin métodos de pagos incluidos). Al finalizar la compra se le muestra el número de orden en pantalla y se guarda la información en la base de datos utilizada.
 
-In the project directory, you can run:
 
-### `npm start`
+## Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para poder ejecutar el código deberás colocar el siguiente código en tu consola.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+ npm install
+ npm run start
+```
 
-### `npm test`
+## Tecnologías aplicadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Create-React-App
+CSS
+Firebase
 
-### `npm run build`
+## Imágenes del Proyecto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Autores y agradecimientos
+Este proyecto se hizo para practicar todo lo aprendido en el curso de React js de Coderhouse, y presentarlo como Proyecto Final.
+No teno más que palabras de agradecimiento a 
+[Francisco Pugh](https://github.com/franciscopugh/) por tan espectaculares clases y los mejores consejos. [Matías Aramayo](https://github.com/maramayo95) Mi gran tutor ! siempre pendiente en ayudar, dándome info extra a toda hora cuando no comprendía algo del todo y siempre con muchísimo interés de verme aprender. Y por supuesto a [Miguel Raad](https://github.com/miguelraad28) por la grata compañía al codear y ayudarme cada vez que se me complicaba encontrar soluciones.
