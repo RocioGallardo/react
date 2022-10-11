@@ -24,6 +24,8 @@ Firebase
 
 ## Imágenes del Proyecto
 
+[GIF](https://firebasestorage.googleapis.com/v0/b/tienda-brave.appspot.com/o/ezgif.com-gif-maker.gif?alt=media&token=b7d4cdae-f4a3-40c9-9046-28108ce075b6)
+
 ## Agradecimientos
 Este proyecto se hizo para practicar todo lo aprendido en el curso de React js de Coderhouse, y presentarlo como Proyecto Final.
 No teno más que palabras de agradecimiento a 
