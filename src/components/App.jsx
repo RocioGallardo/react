@@ -6,24 +6,29 @@ import { ItemListContainer } from './Products/ItemListContainer/ItemListContaine
 import NuevoNavbar from './Navbar/NuevoNavbar';
 import Footer from './Footer/Footer';
 import { CartContextProvider } from '../context/CartContext';
+import { UserContextProvider} from '../context/UserContext'
 import CartContainer from './Cart/CartContainer';
 import Questions from './Info/Questions';
 import Checkout from './Checkout/Checkout';
 import Buscar from './Buscar/Buscar';
-
-
+import Login from './User/Login';
+import Register from './User/Register';
 
 
 function App() {
 
   return (
     <CartContextProvider>
-        <BrowserRouter>
+      <BrowserRouter>
+      <UserContextProvider>
+        
           <NuevoNavbar/>
           <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/productos' element={<ItemListContainer />}></Route>
             <Route path='/buscar' element={<Buscar/>}></Route>
+            <Route path='/login' element={<Login/>}></Route>
+            <Route path='/register' element={<Register/>}></Route>
             <Route path='/:categoria' element={<ItemListContainer />}></Route>
             <Route path='/detalles/:id' element={<ItemDetailContainer titulo="Detalles" />}></Route>
             <Route path='/info' element={<Questions />}></Route>
@@ -32,7 +37,9 @@ function App() {
             <Route path='*' element={<h1 className='error-404'>Error 404</h1>}></Route>
           </Routes>
           <Footer></Footer>
-        </BrowserRouter>
+        
+      </UserContextProvider>
+      </BrowserRouter>
     </CartContextProvider>
   );
 }

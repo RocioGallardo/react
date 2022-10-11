@@ -1,11 +1,10 @@
 .checkout-container{
+    padding-top: 100px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-
-
-
-
 
 
 .form-checkout{
@@ -25,7 +24,7 @@
 
 .div-items-checkout{
     width: 400px;
-    height: 100vh;
+    height: 80vh;
     background-color: #eee;
     position: relative;
     z-index: 100;

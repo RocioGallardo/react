@@ -3,12 +3,14 @@ import {Link} from 'react-router-dom'
 import MenuCostado from './MenuCostado';
 import './NuevoNavbar.css';
 import CartWidget from '../Cart/CartWidget';
+import { useUserContext } from "../../context/UserContext"
 
 
 
 function NuevoNavbar() {
 
     const [classButton, setClassButton] = useState("menu-costado-inactivo")
+    const { user, logout} = useUserContext()
 
     const switchButton = () => {
         if(classButton === "menu-costado-inactivo"){
@@ -17,6 +19,10 @@ function NuevoNavbar() {
             setClassButton("menu-costado-inactivo")
         }
     }
+    const handleLogout = async () => {
+        await logout()
+    }
+    
     return (
         <>
             <nav className='nav'>
@@ -33,9 +39,21 @@ function NuevoNavbar() {
                         <li>
                             <Link to="/buscar" className="navbar-brand" > Buscar </Link>
                         </li>
-                        <li>
-                            <Link to="/iniciar-sesion" className="navbar-brand" > Iniciar sesion </Link>
+                        {user ? 
+                        <li onClick={handleLogout}>
+                            Cerrar Sesión
                         </li>
+                        :
+                        <>
+                            <li>
+                                <Link to="/login" className="navbar-brand" > Iniciar sesion </Link>
+                            </li> 
+                            <li>
+                                <Link to="/reguster" className="navbar-brand" > Registrarse </Link>
+                            </li>
+                        </>
+                        
+                        }
                         <li>
                             <Link to="/info" className="navbar-brand" > Ayuda </Link>
                         </li>

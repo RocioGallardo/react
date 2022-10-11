@@ -1,29 +1,30 @@
 import { setDoc, doc, collection, getDocs, getDoc} from "firebase/firestore"
 import { useState } from "react"
 import { useCartContext } from "../../context/CartContext"
+import { useUserContext } from "../../context/UserContext"
 import { db } from "../../firebase/firebase"
-import ItemCart from "../Cart/ItemCart"
 import './Checkout.css'
 import ItemsCheckout from "./ItemsCheckout"
 
 
 function Checkout() {
     const { cartList, totalCart, clear } = useCartContext()
+    const {user} = useUserContext()
 
     const [numVenta, setNumVenta] = useState()
-    const [comprador, setComprador] = useState({
-        nombre: "",
-        email: "",
-        telefono: ""
+    const [selected, setSelected] = useState({
+        envio: "",
+        pago: "",
     })
-    const { nombre, email, telefono } = comprador
 
-    const handlerInputChange = (e) => {
-        setComprador({
-            ...comprador,
+    const handlerSelected = (e) => {
+        setSelected({
+            ...selected,
             [e.target.name]: e.target.value
         })
     }
+
+
     const key = (id, talle) => {
         return id + talle
     }
@@ -36,7 +37,6 @@ function Checkout() {
         setNumVenta(numeroDeOrden)
         await setDoc(doc(col, numeroDeOrden), data)
         clear()
-
     }
 
 
@@ -54,20 +54,38 @@ function Checkout() {
         await setDoc(itemRef, {arrayStock: [...arraYStockFiltrado]}, {merge:true})
         })
     }
-    const handlerSubmit = (e) => {
-        e.preventDefault()
+
+    const FinalizarCompra = () => {
         const items = cartList.map((item) => { return { id: item.id, talle: item.talle, cantidad: item.cant, precio: item.precio } })
         const date = new Date()
         const total = totalCart()
-        const data = { comprador, items, date, total }
+        const comprador = user.email
+        const data = { comprador, items, date, total, selected }
         generarOrden(data)
         updateStock(items)
     }
+
     
     return (
         !numVenta ? 
         
         <div className="checkout-container">
+            
+            <div>
+                <p>Mátodo de entrega</p>
+            <select name="envio" onChange={handlerSelected}>
+                <option value="sucursal" >Envío gratuito a sucursal de Correo Argentino</option>
+                <option value="retira" >Retiro por el taller</option>
+            </select>
+            <p>Mátodo de pago</p>
+            <select name="pago" onChange={handlerSelected}>
+                <option value="eectivo">Efectivo</option>
+                <option value="transferencia">Transferencia Bancaria</option>
+            </select>
+            <p>Usuario : {user.email}</p>
+            <button className="btn" onClick={() => FinalizarCompra()}> Confirmar</button>
+            
+            </div>
             <div className="div-items-checkout">
                 <h2 className="h2-div-items-checkout">Mi compra</h2>
                 <hr />
@@ -81,37 +99,7 @@ function Checkout() {
                     <p className="p-items-checkout total">total carrito : {totalCart()}</p>
                     <p className="p-items-checkout montoTotal" >{totalCart()}</p>
                 </div>
-                
             </div>
-            <form className="form-checkout"onSubmit={handlerSubmit}>
-                <input
-                    type="text"
-                    name="nombre"
-                    placeholder="Nombre"
-                    value={nombre}
-                    required
-                    onChange={handlerInputChange} />
-                <br />
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="E-mail"
-                    value={email}
-                    required
-                    onChange={handlerInputChange} />
-                <br />
-                <input
-                    type="number"
-                    name="telefono"
-                    placeholder="Teléfono"
-                    value={telefono}
-                    onChange={handlerInputChange} />
-                <br />
-                <input
-                    type="submit"
-                    value="Finalizar Compra"
-                    className="btn" />
-            </form>
         </div>
             :
             <div className="cartel-checkout">

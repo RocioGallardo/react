@@ -1,9 +1,11 @@
 import { initializeApp } from "firebase/app";
 import { collection, addDoc, getFirestore } from "firebase/firestore";
+import {getAuth} from 'firebase/auth';
+
 
 
 const firebaseConfig = {
-    apiKey: `${process.env.REACT_APP_APIKEY}`,
+    apiKey: `AIzaSyBoXNmuojWTmJqmNhCWCCteK74WajCBA8A`,
     authDomain: "tienda-brave.firebaseapp.com",
     projectId: "tienda-brave",
     storageBucket: "tienda-brave.appspot.com",
@@ -35,8 +37,9 @@ async function cargarBaseDeDatos() {
             detalles: producto.detalles
         });
     })
-
 }
 
+const auth = getAuth(app)
 
-export { db, app, cargarBaseDeDatos }
+
+export { db, app, cargarBaseDeDatos, auth }
