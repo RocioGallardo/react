@@ -6,7 +6,9 @@ import { useUserContext } from "../../context/UserContext"
 
 
 function Cart() {
+
     const {cartList, clear, totalCart} = useCartContext()
+    
     const {user} = useUserContext()
 
     const key = (id, talle) => {
@@ -22,7 +24,7 @@ function Cart() {
             <ItemCart id={item.id} key={key(item.id, item.talle)} cant={item.cant} talle={item.talle}/>)}
             <button className="btn" onClick={() => clear()}> limpiar carrito</button>
             <h1>total carrito : {totalCart()}</h1>
-            
+
             {user ? 
             <Link to="/checkout">
                 <button className="btn">Finalizar compra</button>

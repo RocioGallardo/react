@@ -3,7 +3,7 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthState
 import { auth } from '../firebase/firebase';
 
 
-
+// Context del usuario para loguearse con Firebase Auth (login - logout - signup) y para saber si el usuario inició sesión o aún no
 
 const UserContext = createContext()
 

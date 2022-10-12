@@ -1,8 +1,12 @@
 import { createContext, useContext, useState } from 'react'
 
+// El context del cart fue creado para guardar productos al carrito, eliminar productos del carrito, vaciar carrito, si el mismo producto se agrega dos veces se acumula la cantidad
+
 const CartContext = createContext()
 
 const useCartContext = () => useContext(CartContext)
+
+
 
 const CartContextProvider = ({ children }) => {
 

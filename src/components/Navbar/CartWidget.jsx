@@ -1,5 +1,7 @@
 import {Link} from 'react-router-dom'
 import { useCartContext } from "../../context/CartContext"
+
+// cart widget del nav
 function CartWidget() {
     const {cantidadTotal} = useCartContext()
     return (

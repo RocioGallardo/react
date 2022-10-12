@@ -2,7 +2,7 @@ import {useState} from 'react';
 import {Link} from 'react-router-dom'
 import MenuCostado from './MenuCostado';
 import './Navbar.css';
-import CartWidget from '../Cart/CartWidget';
+import CartWidget from './CartWidget';
 import { useUserContext } from "../../context/UserContext"
 
 
