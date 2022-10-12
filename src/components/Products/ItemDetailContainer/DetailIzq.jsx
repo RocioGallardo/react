@@ -3,7 +3,6 @@ import React from 'react'
 function DetailIzq({item}) {
     return (
         <>
-            <h3 className="bold">Informacion de la derecha</h3>
             <p>
                 {item.detalles}
             </p>

@@ -25,7 +25,7 @@ function Register() {
         setError("")
         try {
             await signup(user.email, user.password)
-            navigate("/")
+            navigate("/login")
         } catch (error) {
             setError(error.message)
         }
@@ -39,7 +39,7 @@ function Register() {
         <br/>
         <br/>
         <br/>
-            <h1>Register</h1>
+            <h1>Registrarse</h1>
             {error && <p>{error}</p>}
             <form className="form-checkout" onSubmit={handleSubmit}>
                 <input

@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { useUserContext } from "../../context/UserContext"
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 function Login() {
@@ -18,7 +18,6 @@ function Login() {
         setUser({ ...user, [name]: value })
     }
 
-    
 
     const handleSubmit = async (e) => {
         e.preventDefault()
@@ -61,6 +60,10 @@ function Login() {
                     value="Iniciar Sesión"
                     className="btn" />
             </form>
+            <p>Aún no tienes una cuenta ?</p>
+                <Link to="/register">
+                    <button className="btn">registrarse</button>
+                </Link>
         </>
     )
 }

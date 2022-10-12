@@ -77,9 +77,6 @@ function DetailDer({ item, onAdd, min, show }) {
 
             {show ?
                 <>
-                    <Link to="/talles">
-                        <button className="">Encontrá tu talle</button>
-                    </Link>
                     <Counter onAdd={onAdd} min={min} item={item} stock={stock} talleContext={talleContext}/>
                 </>
                 :

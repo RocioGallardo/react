@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import {Link} from 'react-router-dom'
 import MenuCostado from './MenuCostado';
-import './NuevoNavbar.css';
+import './Navbar.css';
 import CartWidget from '../Cart/CartWidget';
 import { useUserContext } from "../../context/UserContext"
 
@@ -49,7 +49,7 @@ function NuevoNavbar() {
                                 <Link to="/login" className="navbar-brand" > Iniciar sesion </Link>
                             </li> 
                             <li>
-                                <Link to="/reguster" className="navbar-brand" > Registrarse </Link>
+                                <Link to="/register" className="navbar-brand" > Registrarse </Link>
                             </li>
                         </>
                         

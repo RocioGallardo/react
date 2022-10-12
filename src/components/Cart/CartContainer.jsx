@@ -22,6 +22,7 @@ function Cart() {
             <ItemCart id={item.id} key={key(item.id, item.talle)} cant={item.cant} talle={item.talle}/>)}
             <button className="btn" onClick={() => clear()}> limpiar carrito</button>
             <h1>total carrito : {totalCart()}</h1>
+            
             {user ? 
             <Link to="/checkout">
                 <button className="btn">Finalizar compra</button>
@@ -31,12 +32,7 @@ function Cart() {
                 <Link to="/login">
                     <button className="btn">Iniciar Sesión</button>
                 </Link>
-                <p>Aún no tienes una cuenta ?</p>
-                <Link to="/register">
-                    <button className="btn">registrarse</button>
-                </Link>
             </>
-            
             }
             
         </div>
